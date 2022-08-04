@@ -1,0 +1,8 @@
+{{template "layout" .}}
+{{define "main"}}
+{{ range .}}
+        <div class="box-with-shadow">
+            {{.Name}} - {{.Deadline}} - {{.Action}}
+        </div>
+        {{end}}
+{{ end }}

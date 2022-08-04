@@ -1,0 +1,43 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    
+    <link rel="stylesheet" href="static/style.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">TUGAS GOLANG
+        </div>    
+    </div>
+    
+    {{ template "main" .}}
+    
+    <!--footer-->
+    <div class="footer-pc">
+        <div class="row footer-bottom container">
+          <div class="col-bs10-3">
+            <div class="logo_footer">
+              <a href="https://www.progate.com/">
+                <img src="https://prog-8.com/images/html/advanced/main_logo.png">
+              </a>
+            </div>
+          </div>
+    </div>
+    <div class="col-bs10-7">
+        <div class="text-right">
+          <div class="footer-newsletter ">
+            <p class="footer-newsletter-title">
+              Tugas Golang -- Hiska Anggit Maulana
+            </p>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
+{{end}}
