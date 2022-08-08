@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/ydhnwb/golang_api/entity"
+	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
 
